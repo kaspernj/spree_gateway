@@ -8,6 +8,7 @@ module SpreeGateway
         app.config.spree.payment_methods << Spree::Gateway::AuthorizeNetCim
         app.config.spree.payment_methods << Spree::Gateway::AuthorizeNet
         app.config.spree.payment_methods << Spree::Gateway::CardSave
+        app.config.spree.payment_methods << Spree::Gateway::Epay
         app.config.spree.payment_methods << Spree::Gateway::Eway
         app.config.spree.payment_methods << Spree::Gateway::Linkpoint
         app.config.spree.payment_methods << Spree::Gateway::Moneris
